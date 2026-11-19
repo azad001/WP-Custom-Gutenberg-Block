@@ -1,0 +1,28 @@
+{
+  "apiVersion": 2,
+  "name": "rswpt/pros-cons",
+  "title": "RSWPT Pros & Cons Box",
+  "category": "text",
+  "icon": "columns",
+
+  "editorScript": "rswpt-pros-cons-editor",
+
+  "attributes": {
+    "prosTitle": {
+      "type": "string",
+      "default": "What I Loved"
+    },
+    "consTitle": {
+      "type": "string",
+      "default": "What Could Be Better"
+    },
+    "pros": {
+      "type": "array",
+      "default": []
+    },
+    "cons": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

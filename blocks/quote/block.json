@@ -1,0 +1,18 @@
+{
+  "apiVersion": 2,
+  "name": "rswpt/quote",
+  "title": "RSWPT Block Quote",
+  "category": "text",
+  "icon": "format-quote",
+  "editorScript": "rswpt-quote-editor",
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "default": ""
+    },
+    "author": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

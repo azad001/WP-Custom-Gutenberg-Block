@@ -1,0 +1,20 @@
+{
+  "apiVersion": 2,
+  "name": "rswpt/info-box",
+  "title": "RSWPT Info Box",
+  "category": "text",
+  "icon": "info",
+
+  "editorScript": "rswpt-info-box-editor",
+
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "What I Loved"
+    },
+    "items": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

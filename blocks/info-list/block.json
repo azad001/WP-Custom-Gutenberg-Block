@@ -1,0 +1,21 @@
+{
+  "apiVersion": 2,
+  "name": "rswpt/info-list",
+  "title": "RSWPT Info List",
+  "category": "text",
+  "icon": "editor-ul",
+
+  "editorScript": "rswpt-info-list-editor",
+
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": [
+        { "label": "Cue", "text": "Make it obvious." },
+        { "label": "Craving", "text": "Make it attractive." },
+        { "label": "Response", "text": "Make it easy." },
+        { "label": "Reward", "text": "Make it satisfying." }
+      ]
+    }
+  }
+}
